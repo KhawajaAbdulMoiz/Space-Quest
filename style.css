@@ -1,0 +1,179 @@
+.main{
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: flex;   
+}
+.nav{
+    color: rgb(255, 255, 255);
+    margin-left: 433px;
+    margin-top: 16px;
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: Inter;
+    font-weight: 20px;
+}
+.logo{
+    margin: 22px;
+    margin-top: 35px;
+}
+.text{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 98px;
+    
+}
+.mainheading{
+    font-family: Montserrat;
+    font-size: 68px;
+    font-weight: bold;
+    
+}
+.subheading{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;   
+}
+button{
+    border-radius: 20px;
+    color: white;
+    background-color: #DD2C2C;
+    font-family: Poppins;
+    font-size: 22px;
+    width: 176px;
+    height: 52px;
+    margin-top: 36px;
+}
+.nav-button{
+    width: 100px;
+    height: 40px;
+    display: inline;
+    
+    font-weight: medium;
+    font-size: 16px;
+   
+}
+.login{
+    margin: 20px;
+    margin-left: 210px;
+    margin-top: -11px;
+}
+#signup{
+    background-color: transparent;
+    border-color:  #DD2C2C;
+}
+.review{
+    display: flex;
+    justify-content: center;
+}
+.st{
+    margin-top: 20px;
+    margin-right: 5px;
+}
+.container2{
+    background-color: #280404;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 110px;
+    height: 78px;
+
+}
+.seen{
+    color: white;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: medium;
+    
+}
+
+/* ABOUT SECTION */
+
+.globe{
+    background-image: url(images/globe2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.about{
+    display: flex;
+    
+}
+.white-text{
+    color: white;
+    font-size: 52px;
+    font-family: Roboto;
+    font-weight: bold;
+    margin-left: 110px;
+   
+    
+    
+}
+.about-text{
+   margin-top: 100px;
+}
+.joined{
+    margin-top: 140px;
+    text-align: center;
+    margin-left: 10%;
+}
+.red-text{
+    color: #DD2C2C;
+    font-size: 52px;
+    font-family: Roboto;
+    font-weight: bold;
+    
+}
+.subheading{
+    color: white;
+    font-family: Poppins;
+    font-weight: normal;
+    margin-left: 110px;
+}
+.subtext{
+    color: white;
+    font-family: Poppins;
+    font-weight: normal;
+    margin-left: 110px;
+}
+.learn-more{
+    border-radius: 20px;
+    color: white;
+    background-color: #DD2C2C;
+    font-family: Poppins;
+    font-size: 14px;
+    width: 120px;
+    height: 40px;
+    margin-top: 36px;
+    margin-left: 110px;
+}
+.container3{
+    border-radius: 20px white;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    margin-top: 140px;
+    padding: 15px;
+    width: 520px;
+    height: 300px;
+   
+    
+    
+    
+}
+.mission{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-family: Poppins;
+    gap: 20px;
+    
+}
+#sub{
+    margin-right: 105px;
+}
