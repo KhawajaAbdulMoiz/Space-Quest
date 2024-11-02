@@ -11,10 +11,12 @@
     href="https://fonts.googleapis.com/css?family=Inter">
     <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="icon" href="/images/favicon.png" type="image/x-icon">
    
 </head>
 <body>
     <!-- MAIN PAGE -->
+   
     <div class="main">
     <div class="container">
         <div class="logo">
@@ -22,10 +24,10 @@
         </div>
         <div class="navbar">
             <li class="nav">
-                <ul>Home</ul>
-                <ul>About</ul>
-                <ul>Donation</ul>
-                <ul>Blog</ul>
+                <ul><a href="#">Home</a></ul>
+                <ul><a href="#about">About</a></ul>
+                <ul><a href="#blogs">Donation</a></ul>
+                <ul><a href="#contact">Contact</a></ul>
             </li>
         </div>
         <div class="login">
@@ -62,7 +64,7 @@
 
 
  <div class="globe">
-    <div class="about">
+    <div class="about" id="about">
         <div class="about-text">
         <h1>
             <span class="white-text">What is</span> <span class="red-text">Star Quest</span>
@@ -105,7 +107,7 @@
     </div>
 </div>
 <div class="blogs">
-    <h1 class="white-text">Learn about us</h1>
+    <h1 class="white-text"  id="blogs">Learn about us</h1>
 </div>
 <div class="blog-row">
 <div class="blog1">
@@ -189,7 +191,7 @@
 
 <!-- FOOTER SECTION -->
 
-<div class="footer">
+<div class="footer" id="contact">
     <div >
         <img src="images/Sq.png" alt="logo" class="footer-img">
         <h4 class="subheading">
@@ -234,7 +236,8 @@
 
 
 </div>
- 
 
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
