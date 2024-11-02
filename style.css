@@ -1,13 +1,16 @@
 body{
- 
+ overflow-y: scroll;
 }
 .main{
     background-image: url(images/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    
+    
 }
 .container{
     display: flex; 
+   
     
 }
 .nav{
@@ -320,3 +323,392 @@ button{
       clip-path: inset(0 0 0 0);
     }
   }
+
+
+
+
+
+
+  /* General Mobile Styles */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .nav{
+        margin: 4px;
+        gap: 5px;
+        margin-top: 20px;
+    }
+    .nav-button {
+        width: 59px;
+        height: 27px;
+        display: inline;
+        font-weight: medium;
+        font-size: 11px;
+    }
+    .login{
+        margin: 20px;
+        margin-left: 29px;
+        margin-top: -2px;
+    }
+    .mainheading{
+        font-size: 59px;
+    }
+    .subheading{
+        margin-left: 85px;
+        font-size: 17px;
+    }
+    button{
+        font-size: 18px;
+        width: 145px;
+        height: 43px;
+    }
+    .rev{
+        margin-left: 19px;
+        font-size: 17px;
+        margin-top: 26px;
+    }
+    .white-text{   
+        font-size: 40px;
+        margin-left: 78px;
+    }
+    .red-text{
+        font-size: 42px;
+    }
+    .subtext{
+        margin-left: 86px;
+        font-size: 18px;
+    }
+    .users{
+        font-size: 52px;
+        margin-left: -2px;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    .learn-more{
+        margin-left: 305px;
+    }
+    .mission{
+        display: flex;
+        flex-direction: column;
+    }
+    .container3{
+        width: 506px;
+        height: 314px;
+        margin-left: 108px;
+    }
+    .blogs h1 {
+        margin-top: 13%;
+        font-size: 36px;
+    }
+    .blog-row {
+        display: flex;
+        flex-direction: column;
+    }
+    .blog1{
+        margin-left: 196px;
+        margin-top: 4%;   
+    }
+    .faqs h1 {
+        margin-top: 12%;
+        font-size: 31px;
+        margin-left: 82px;
+        color: aliceblue;
+    }
+    .faq-decoraion{
+        margin-left: 52px;
+        margin-top: 26px;
+        width: 596px;
+        height: 214px;
+    }
+    .questions{
+        font-size: 16px;
+    }
+    .bt{
+        margin-top: 24px;
+        margin-right: 24px;
+        width: 126px;
+    }
+    .footer{
+        margin-top: 1%;
+    }
+}
+
+/* CSS for extra small devices */
+@media (max-width: 575.98px) { 
+    .nav {
+        margin: -35px;
+        gap: 0px;
+        margin-top: 20px;
+    }
+    .nav-button{
+        display: none;
+    }
+    .mainheading {
+        font-size: 56px;
+    }
+    .subheading {
+        margin-left: 15px;
+        font-size: 15.8px;
+    }
+    .seen{
+        display: none;
+    }
+    .subheading {
+        margin-left: 85px;
+    }
+    .learn-more {
+        margin-left: 239px;
+    }
+    .container3 {
+        width: 356px;
+        height: 380px;
+        margin-left: 106px;
+    }
+    .blog1 {
+        margin-left: 120px;
+    }
+    .faqs h1 {
+       
+        font-size: 26px;
+        margin-left: 59px;
+        
+    }
+    .faq-decoraion {
+        margin-left: 46px;
+        margin-top: 27px;
+        width: 487px;
+        height: 266px;
+    }
+    .bt {
+        margin-top: 26px;
+        margin-right: -14px;
+        width: 119px;
+    }
+    .nav ul a {
+        text-decoration: none;
+        font-size: 13px;
+        margin-left: 15px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .nav{
+        margin: 1px;
+        gap: 1px;
+        margin-top: 21px;
+    }
+    .seen{
+        display: none;
+    }
+    .nav-button {
+        display: none;
+    }
+    .login{
+        margin: 20px;
+        margin-left: 29px;
+        margin-top: -2px;
+    }
+    .mainheading {
+        font-size: 53px;
+    }
+    .subheading {
+        margin-left: 38px;
+        font-size: 14px;
+    }
+    button{
+        font-size: 18px;
+        width: 145px;
+        height: 43px;
+    }
+    .rev{
+        margin-left: 19px;
+        font-size: 17px;
+        margin-top: 26px;
+    }
+    .white-text{   
+        font-size: 40px;
+        margin-left: 35px;
+    }
+    .red-text{
+        font-size: 42px;
+    }
+    .subtext{
+        margin-left: 39px;
+        font-size: 14px;
+    }
+    .users{
+        font-size: 52px;
+        margin-left: -2px;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    .learn-more{
+        margin-left: 206px;
+    }
+    .mission{
+        display: flex;
+        flex-direction: column;
+    }
+    .container3 {
+        width: 338px;
+        height: 313px;
+        margin-left: 108px;
+    }
+    .blogs h1 {
+        margin-top: 13%;
+        font-size: 36px;
+    }
+    .blog-row {
+        display: flex;
+        flex-direction: column;
+    }
+    .blog1{
+        margin-left: 117px;
+        margin-top: 5%;
+    }
+    .faqs h1 {
+        margin-top: 12%;
+        font-size: 27px;
+        margin-left: 64px;
+       
+    }
+    .faq-decoraion {
+        margin-left: 50px;
+        margin-top: 26px;
+        width: 488px;
+        height: 224px;
+    }
+    .questions{
+        font-size: 16px;
+    }
+    .questions h4 {
+        font-size: 13px;
+    }
+    .bt {
+        margin-top: 24px;
+        margin-right: 24px;
+        width: 80px;
+        height: 58px;
+    }
+    .footer{
+        margin-top: -3%;
+    }
+    .footer-img {
+        margin-left: 39px;
+        margin-top: 150px;
+    }
+    #sub {
+        margin-right: 24px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    .nav{
+        margin: 4px;
+        gap: 5px;
+        margin-top: 20px;
+    }
+    .nav-button {
+        width: 59px;
+        height: 27px;
+        display: inline;
+        font-weight: medium;
+        font-size: 11px;
+    }
+    .login{
+        margin: 20px;
+        margin-left: 29px;
+        margin-top: -2px;
+    }
+    .mainheading{
+        font-size: 59px;
+    }
+    .container {
+        display: flex;
+        gap: 105px;
+    }
+    .subheading{
+        margin-left: 85px;
+        font-size: 17px;
+    }
+    button{
+        font-size: 18px;
+        width: 145px;
+        height: 43px;
+    }
+    .rev{
+        margin-left: 19px;
+        font-size: 17px;
+        margin-top: 26px;
+    }
+    .white-text{   
+        font-size: 40px;
+        margin-left: 78px;
+    }
+    .red-text{
+        font-size: 42px;
+    }
+    .subtext{
+        margin-left: 86px;
+        font-size: 18px;
+    }
+    .users{
+        font-size: 52px;
+        margin-left: -2px;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    .learn-more {
+        margin-left: 176px;
+    }
+    .mission{
+        display: flex;
+        flex-direction: column;
+    }
+    .container3{
+        width: 506px;
+        height: 314px;
+        margin-left: 212px;
+    }
+    .blogs h1 {
+        margin-top: 13%;
+        font-size: 44px;
+    }
+    .blog-row {
+        display: flex;
+        flex-direction: column;
+    }
+    .blog1{
+        margin-left: 292px;
+        margin-top: 4%;   
+    }
+    .faqs h1 {
+        margin-top: 12%;
+        font-size: 37px;
+        margin-left: 82px;
+        color: aliceblue;
+    }
+    .faq-decoraion{
+        margin-left: 166px;
+        margin-top: 26px;
+        width: 596px;
+        height: 214px;
+    }
+    .questions{
+        font-size: 16px;
+    }
+    .bt{
+        margin-top: 24px;
+        margin-right: 24px;
+        width: 126px;
+    }
+    .footer{
+        margin-top: 1%;
+    }
+    .about-text {
+        margin-top: 100px;
+        text-align: center;
+    }
+}
