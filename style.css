@@ -8,10 +8,27 @@ body{
     
     
 }
+.subheading h5 a {
+    color: white;         
+    text-decoration: none; 
+}
 .container{
     display: flex; 
    
     
+}
+.identity p{
+   
+    text-align: center;
+    font-family: 'Montserrat';
+    color: white;
+}
+.identity{
+   margin: -1.1%;
+    background-color:#280404;
+}
+.identity span{
+    color: #f76c4c;
 }
 .nav{
     color: rgb(255, 255, 255);
