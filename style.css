@@ -22,9 +22,10 @@ body{
     text-align: center;
     font-family: 'Montserrat';
     color: white;
+    font-size: 15px;
 }
 .identity{
-   margin: -1.1%;
+   margin: -2.1%;
     background-color:#280404;
 }
 .identity span{
@@ -576,6 +577,10 @@ button{
         margin-top: 13%;
         font-size: 36px;
     }
+    .identity p{
+        font-size: 13px;
+    }
+   
     .blog-row {
         display: flex;
         flex-direction: column;
@@ -885,6 +890,12 @@ button{
         line-height: 1.7;
         margin-left: 6px;
     }
+    .identity p{
+        font-size: 9px;
+    }
+    .identity{
+        margin-bottom: -2%;
+    }
     
 }
 @media (min-width: 391px) and (max-width: 575px) {
@@ -892,6 +903,12 @@ button{
         margin: 4px;
         gap: 4px;
         margin-top: -9px;
+    }
+    .identity p{
+        font-size: 9px;
+    }
+    .identity{
+        margin-bottom: -2%;
     }
     .container2{
         margin-right: 26%;
