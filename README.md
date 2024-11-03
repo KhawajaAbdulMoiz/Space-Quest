@@ -28,7 +28,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/SpaceQuest.git
+   git clone https://github.com/KhawajaAbdulMoiz/Star-Quest.git
 
 ## Contact
 ### Developed by: Khawaja Abdul Moiz
