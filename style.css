@@ -902,18 +902,18 @@ button{
 }
 @media (min-width: 391px) and (max-width: 575px) {
     .nav{
-        margin: 4px;
+        margin-left: 75px;
         gap: 4px;
         margin-top: -9px;
     }
     .identity p{
-        font-size: 9px;
+        font-size: 7px;
     }
     .identity{
         margin-bottom: -2%;
     }
     .container2{
-        margin-right: 26%;
+        margin-right: 0%;
         gap: 32px;
         justify-content: center;
         margin-top: 48px;
@@ -938,7 +938,7 @@ button{
     .mainheading{
         margin-top: -15%;
         font-size: 25px;
-        margin-left: -145px;
+        margin-left: 11px;
     }
     .subheading h5{
         font-size: 9px;
@@ -947,7 +947,7 @@ button{
         font-size: 11px;
     }
     .subheading{
-        margin-left: 127px;
+        margin-left: 54px;
         font-size: 9px;
     }
     h3.subheading{
@@ -957,17 +957,17 @@ button{
         margin-left: 111px;
     }
     button{
-        margin-left: -158px;
+        margin-left: 26px;
         font-size: 10px;
         width: 85px;
         height: 33px;
     }
     #main-sub{
-        margin-left: -158px;
+        margin-left: 10px;
     }
     .review{
         display: flex;
-        margin-left: -30%;
+        margin-left: 5%;
         justify-content: center;
     }
     .rev{
@@ -999,7 +999,7 @@ button{
         flex-direction: column;
     }
     .main-logo{
-        margin-left: 41%;
+        margin-left: 55%;
     }
     .learn-more{
         margin-left: 147px;
